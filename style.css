@@ -59,6 +59,10 @@ h1{margin:0 0 22px;font-size:clamp(2.5rem,6.2vw,4.9rem);line-height:1.02;letter-
 .foot{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;padding-top:24px;padding-bottom:28px;border-top:1px solid var(--line);font-size:.9rem;color:var(--muted)}
 .foot nav{display:flex;gap:22px}.foot a{text-decoration:none}.foot a:hover{color:var(--accent);text-decoration:underline}
 
+.credit{display:inline-flex;align-items:center;gap:6px}
+.credit a{font-weight:600;color:var(--ink)}
+.heart{color:#e11d48;animation:beat 2.2s ease-in-out infinite}
+@keyframes beat{0%,60%,100%{transform:scale(1)}70%{transform:scale(1.25)}80%{transform:scale(1)}90%{transform:scale(1.18)}}
 @keyframes float{50%{transform:translateY(-14px)}}
 @keyframes rot{to{transform:rotate(360deg)}}
 @keyframes slide{0%{transform:translateX(-100%)}100%{transform:translateX(260%)}}
