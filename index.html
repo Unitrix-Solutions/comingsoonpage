@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coming Soon</title>
+<meta name="description" content="Our new website is on its way. Stay tuned, and get in touch if you have a question.">
+<meta name="theme-color" content="#f7f8fc">
+<link rel="icon" href="favicon.svg" type="image/svg+xml" id="favicon">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="bg" aria-hidden="true"><i class="blob b1"></i><i class="blob b2"></i><i class="grid"></i></div>
+
+<header class="wrap top">
+  <a class="brand" href="#main" aria-label="Home">
+    <span class="mark" id="mark"><svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><circle cx="16" cy="16" r="9" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="8" r="3" fill="var(--accent)"/></svg></span>
+    <span class="name" id="name" hidden></span>
+  </a>
+</header>
+
+<main id="main" class="wrap hero">
+  <section class="copy">
+    <p class="badge"><span class="dot"></span>Coming soon</p>
+    <h1 id="heading">Something Great Is Taking Shape.</h1>
+    <p class="lead" id="desc">We're working behind the scenes to bring you a new online experience. Our website will be launching soon. Stay tuned!</p>
+    <div class="cta" id="cta">
+      <a class="btn primary" id="btnContact" href="#contact" hidden>Get in Touch</a>
+      <a class="btn ghost" id="btnConnect" href="#" hidden>Stay Connected</a>
+    </div>
+    <div class="build" role="img" aria-label="Decorative loading indicator">
+      <span class="build-label">Building something meaningful</span>
+      <span class="bar"><span></span></span>
+    </div>
+  </section>
+
+  <div class="visual" aria-hidden="true">
+    <svg class="orbits" viewBox="0 0 400 400" fill="none">
+      <circle cx="200" cy="200" r="190" stroke="currentColor" stroke-opacity=".12"/>
+      <circle cx="200" cy="200" r="140" stroke="currentColor" stroke-opacity=".16" stroke-dasharray="2 8" stroke-linecap="round"/>
+      <circle cx="200" cy="200" r="92" stroke="currentColor" stroke-opacity=".2"/>
+      <g class="spin a"><circle cx="200" cy="10" r="7" fill="var(--accent)"/></g>
+      <g class="spin b"><circle cx="200" cy="60" r="5" fill="var(--accent2)"/></g>
+    </svg>
+    <div class="orb"></div>
+    <div class="card c1"><i></i><b></b><b class="s"></b></div>
+    <div class="card c2"><i></i><b></b><b class="s"></b></div>
+  </div>
+</main>
+
+<section class="wrap contact" id="contact" hidden>
+  <div class="glass">
+    <p>Have a question? We'd love to hear from you.</p>
+    <ul id="contactList"></ul>
+  </div>
+</section>
+
+<footer class="wrap foot">
+  <span id="copy"></span>
+  <nav id="footNav" aria-label="Footer"></nav>
+</footer>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
